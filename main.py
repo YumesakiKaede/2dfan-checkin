@@ -4,7 +4,7 @@ from typing import Optional
 from api import User
 from recaptcha import EzCaptchaImpl
 
-# sessions = os.environ.get(key='SESSIONS', default='').split(',')
+sessions = os.environ.get(key='in20wlbwGbYq6ypbF9hKm8yOTXPGjaJJ2BoBGv7AUi6izdc4SOh7v9eurfvVnIhqND%2FOjJTP0Dp4ZLS%2BoBGv7AUi6izdc4SOh7v9eurfvVnIhqND%2FOnsSP0Dp4Dm8Fe3LDITuT7jK22BJw%3D%3D%2BLvk9fyqPYzERwKA--tiCNbvdFadszITuT7IK%2BJw%3D%3D%2BLvk9fyqPYzERwKA--tiCNbvdFadszITuT7IK%2BJw%3D%3D%2BLvk9fyqPYzERwKA--tiCNbvdFadszITuT7IK%2BJw%3D%3D%2BLvk9fyqPYzERwKA--tiCNbvdFadszITuT7IK%2BJw%3D%3D%2BLvk9fyqPYzERwKA--tiCNbvdFadszITuT7IK%2BJw%3D%3D', default='').split(',')
 session_map_str: Optional[str] = os.environ.get(key='SESSION_MAP', default=None)
 if not session_map_str:
     raise EnvironmentError("缺少环境变量 SESSION_MAP")
